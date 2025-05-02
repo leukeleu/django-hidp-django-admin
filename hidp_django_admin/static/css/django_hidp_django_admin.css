@@ -1,0 +1,81 @@
+#content {
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+#content ul {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+#content ul > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content ul > li > form > button {
+  margin-bottom: 0.5rem;
+}
+
+#content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#content hr {
+  margin: 1rem 0;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form .submit-row {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+form button[type="submit"], input[type="submit"] {
+  background: var(--button-bg);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: var(--button-fg);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+form button[type="submit"]:hover, input[type="submit"]:hover {
+  background-color: var(--button-hover-bg);
+}
+
+form a.default {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+form a.default:hover {
+  text-decoration: underline;
+}
