@@ -1,0 +1,25 @@
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - minor
+  patch:
+    labels:
+      - patch
+  default: minor
+
+categories:
+  - title: ':label: Template Changes'
+    label: templates
+  - title: ':arrow_up: Dependencies'
+    label: dependencies
+
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"

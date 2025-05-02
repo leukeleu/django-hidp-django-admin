@@ -1,0 +1,15 @@
+include Makefile
+include requirements_dev.txt
+include .editorconfig
+recursive-include docs *.md
+recursive-include hidp_django-admin/templates *.html *.txt
+global-exclude *.lock
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude Thumbs.db
+global-exclude Desktop.ini
+global-exclude *.swp
+global-exclude *~
+global-exclude *.bak
+global-exclude .venv/*

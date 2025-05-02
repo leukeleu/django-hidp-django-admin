@@ -1,0 +1,6 @@
+# https://github.com/marketplace/actions/labeler
+
+templates:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'hidp_django_admin/templates/**'
