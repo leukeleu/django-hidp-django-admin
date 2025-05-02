@@ -37,7 +37,7 @@ Releasenotes = "https://github.com/leukeleu/django-hidp-django-admin/releases"
 packages = ["hidp_django_admin"]
 
 [tool.setuptools.package-data]
-hidp_django_admin = ["templates/hidp/*.html", "static/css/*.css"]
+hidp_django_admin = ["templates/hidp/*.html", "templates/admin/base.html", "static/css/*.css"]
 
 [tool.ruff]
 unsafe-fixes = false
