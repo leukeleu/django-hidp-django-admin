@@ -79,3 +79,17 @@ form a.default {
 form a.default:hover {
   text-decoration: underline;
 }
+
+form input[type="submit"].submit-link {
+  background: none;
+  color: var(--link-fg);
+  text-decoration: none;
+  transition: color 0.15s, background 0.15s;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"].submit-link:hover {
+  color: var(--link-hover-color);
+}
