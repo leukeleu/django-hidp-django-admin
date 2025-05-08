@@ -2,11 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{% block title %}My App{% endblock %}</title>
+  <title>{% block title %}{% endblock %}</title>
 
   <link rel="stylesheet" href="{% static 'admin/css/base.css' %}">
   <link rel="stylesheet" href="{% static 'admin/css/responsive.css' %}">
   <link rel="stylesheet" href="{% static 'admin/css/dashboard.css' %}">
+  <link rel="stylesheet" href="{% static 'css/django_hidp_django_admin.css' %}">
   {% block dark-mode-vars %}
     <link rel="stylesheet" href="{% static 'admin/css/dark_mode.css' %}">
     <script src="{% static 'admin/js/theme.js' %}" nonce="{% csp_nonce %}"></script>
@@ -14,11 +15,6 @@
 </head>
 
 <body>
-  {% block head %}
-    {{ block.super }}
-    <link rel="stylesheet" href="{% static 'css/django_hidp_django_admin.css' %}">
-  {% endblock %}
-
   {% block header %}
     <header id="header">
       <div id="branding">
