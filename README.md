@@ -17,11 +17,21 @@ pip install django-hidp-django-admin
 ```python
 INSTALLED_APPS = [
     ...
+    "hidp_django_admin",  # Should be above "hidp" for templates to work
+    ...
+]
+```
+
+3. Add the following urls to your projects `urls.py` above the `hidp_urls`.
+
+```python
+url_patterns = [
+    ...
     # Hello, ID Please
     path(
         "django-admin/login/",
         RedirectView.as_view(pattern_name="hidp_accounts:login"),
     ),
-    "hidp_django_admin",  # Should be above "hidp" for templates to work
+    path("django-admin/", admin.site.urls),
+    ...
 ]
-```
