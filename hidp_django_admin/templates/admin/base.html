@@ -12,7 +12,7 @@
         {% endif %}
     {% endif %}
     {% if user.has_usable_password %}
-    <a href="{% url 'hidp_account_management:manage_account' %}">{% trans 'Manage account' %}</a> / 
+    <a href="{% url 'hidp_account_management:manage_account' %}">{% trans 'Manage account' %}</a> /
     {% endif %}
     <form id="logout-form" method="post" action="{% url 'hidp_accounts:logout' %}">
         {% csrf_token %}
