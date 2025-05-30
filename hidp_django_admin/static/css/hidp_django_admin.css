@@ -77,7 +77,7 @@ form button[disabled],
 form input[type="submit"][disabled],
 form input[type="button"][disabled] {
     opacity: 0.4;
-    cursor: not-allowed
+    cursor: not-allowed;
 }
 
 form button[type="submit"]:hover,
