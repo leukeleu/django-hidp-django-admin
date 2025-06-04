@@ -12,12 +12,14 @@ This package contains Django-admin-styled templates for HIdP.
 pip install django-hidp-django-admin
 ```
 
-2. Add the package to your `INSTALLED_APPS` in your Django settings:
+2. Add the package to your `INSTALLED_APPS` in your Django settings.
+
+Note: Make sure to add it above the `hidp` app so that templates are loaded correctly.
 
 ```python
 INSTALLED_APPS = [
     ...
-    "hidp_django_admin",  # Should be above "hidp" for templates to work
+    "hidp_django_admin",
     ...
 ]
 ```
