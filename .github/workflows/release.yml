@@ -1,0 +1,34 @@
+name: Release
+
+concurrency:
+  # Only one release job can run at a time
+  group: ${{ github.workflow }}
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    name: Release HIdP Django Admin
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    environment: pypi
+    permissions:
+      # IMPORTANT: this permission is mandatory for Trusted Publishing
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # A build is created as part of the QA job
+      - name: Linting, checks & tests
+        uses: ./.github/actions/python-qa
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1

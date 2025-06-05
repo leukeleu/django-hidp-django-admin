@@ -1,0 +1,361 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "asgiref"
+version = "3.8.1"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/c34/3bd80a0bec947/asgiref-3.8.1.tar.gz", hash = "sha256:c343bd80a0bec947a9860adb4c432ffa7db769836c64238fc34bdc3fec84d590" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3e1/e3ecc849832fe/asgiref-3.8.1-py3-none-any.whl", hash = "sha256:3e1e3ecc849832fe52ccf2cb6686b7a55f82bb1d6aee72a58826471390335e47" },
+]
+
+[[package]]
+name = "build"
+version = "1.2.2.post1"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "colorama", marker = "os_name == 'nt'" },
+    { name = "packaging" },
+    { name = "pyproject-hooks" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/b36/993e92ca9375a/build-1.2.2.post1.tar.gz", hash = "sha256:b36993e92ca9375a219c99e606a122ff365a760a2d4bba0caa09bd5278b608b7" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/1d6/1c0887fa860c0/build-1.2.2.post1-py3-none-any.whl", hash = "sha256:1d61c0887fa860c01971625baae8bdd338e517b836a2f70dd1f7aa3a6b2fc5b5" },
+]
+
+[[package]]
+name = "certifi"
+version = "2025.1.31"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/3d5/da6925056f6f1/certifi-2025.1.31.tar.gz", hash = "sha256:3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/ca7/8db4565a65202/certifi-2025.1.31-py3-none-any.whl", hash = "sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe" },
+]
+
+[[package]]
+name = "cffi"
+version = "1.17.1"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "pycparser" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/1c3/9c6016c32bc48/cffi-1.17.1.tar.gz", hash = "sha256:1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/a45/e3c6913c5b87b/cffi-1.17.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:a45e3c6913c5b87b3ff120dcdc03f6131fa0065027d0ed7ee6190736a74cd401" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/30c/5e0cb5ae493c0/cffi-1.17.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:30c5e0cb5ae493c04c8b42916e52ca38079f1b235c2f8ae5f4527b963c401caf" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f75/c7ab1f9e4aca5/cffi-1.17.1-cp311-cp311-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f75c7ab1f9e4aca5414ed4d8e5c0e303a34f4421f8a0d47a4d019ceff0ab6af4" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/a1e/d2dd297264149/cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a1ed2dd2972641495a3ec98445e09766f077aee98a1c896dcb4ad0d303628e41" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/46b/f43160c1a35f7/cffi-1.17.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:46bf43160c1a35f7ec506d254e5c890f3c03648a4dbac12d624e4490a7046cd1" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/a24/ed04c8ffd54b0/cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:a24ed04c8ffd54b0729c07cee15a81d964e6fee0e3d4d342a27b020d22959dc6" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/610/faea79c43e44c/cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:610faea79c43e44c71e1ec53a554553fa22321b65fae24889706c0a84d4ad86d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/a9b/15d491f3ad5d6/cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:a9b15d491f3ad5d692e11f6b71f7857e7835eb677955c00cc0aefcd0669adaf6" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/de2/ea4b583362538/cffi-1.17.1-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:de2ea4b5833625383e464549fec1bc395c1bdeeb5f25c4a3a82b5a8c756ec22f" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/fc4/8c783f9c87e60/cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:fc48c783f9c87e60831201f2cce7f3b2e4846bf4d8728eabe54d60700b318a0b" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/85a/950a4ac9c3593/cffi-1.17.1-cp311-cp311-win32.whl", hash = "sha256:85a950a4ac9c359340d5963966e3e0a94a676bd6245a4b55bc43949eee26a655" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/caa/f0640ef5f5517/cffi-1.17.1-cp311-cp311-win_amd64.whl", hash = "sha256:caaf0640ef5f5517f49bc275eca1406b0ffa6aa184892812030f04c2abf589a0" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/805/b4371bf7197c3/cffi-1.17.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:805b4371bf7197c329fcb3ead37e710d1bca9da5d583f5073b799d5c5bd1eee4" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/733/e99bc2df47476/cffi-1.17.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:733e99bc2df47476e3848417c5a4540522f234dfd4ef3ab7fafdf555b082ec0c" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/125/7bdabf294dceb/cffi-1.17.1-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:1257bdabf294dceb59f5e70c64a3e2f462c30c7ad68092d01bbbfb1c16b1ba36" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/da9/5af8214998d77/cffi-1.17.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:da95af8214998d77a98cc14e3a3bd00aa191526343078b530ceb0bd710fb48a5" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d63/afe322132c194/cffi-1.17.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:d63afe322132c194cf832bfec0dc69a99fb9bb6bbd550f161a49e9e855cc78ff" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f79/fc4fc25f1c869/cffi-1.17.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:f79fc4fc25f1c8698ff97788206bb3c2598949bfe0fef03d299eb1b5356ada99" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/b62/ce867176a75d0/cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b62ce867176a75d03a665bad002af8e6d54644fad99a3c70905c543130e39d93" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/386/c8bf53c502fff/cffi-1.17.1-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:386c8bf53c502fff58903061338ce4f4950cbdcb23e2902d86c0f722b786bbe3" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/4ce/b10419a9adf44/cffi-1.17.1-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:4ceb10419a9adf4460ea14cfd6bc43d08701f0835e979bf821052f1805850fe8" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/a08/d7e755f8ed210/cffi-1.17.1-cp312-cp312-win32.whl", hash = "sha256:a08d7e755f8ed21095a310a693525137cfe756ce62d066e53f502a83dc550f65" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/513/92eae71afec0d/cffi-1.17.1-cp312-cp312-win_amd64.whl", hash = "sha256:51392eae71afec0d0c8fb1a53b204dbb3bcabcb3c9b807eedf3e1e6ccf2de903" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f3a/2b4222ce6b60e/cffi-1.17.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:f3a2b4222ce6b60e2e8b337bb9596923045681d71e5a082783484d845390938e" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/098/4a4925a435b1d/cffi-1.17.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:0984a4925a435b1da406122d4d7968dd861c1385afe3b45ba82b750f229811e2" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d01/b12eeeb4427d3/cffi-1.17.1-cp313-cp313-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d01b12eeeb4427d3110de311e1774046ad344f5b1a7403101878976ecd7a10f3" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/706/510fe141c86a6/cffi-1.17.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:706510fe141c86a69c8ddc029c7910003a17353970cff3b904ff0686a5927683" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/de5/5b766c7aa2e2a/cffi-1.17.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:de55b766c7aa2e2a3092c51e0483d700341182f08e67c63630d5b6f200bb28e5" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c59/d6e989d074601/cffi-1.17.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:c59d6e989d07460165cc5ad3c61f9fd8f1b4796eacbd81cee78957842b834af4" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/dd3/98dbc6773384a/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dd398dbc6773384a17fe0d3e7eeb8d1a21c2200473ee6806bb5e6a8e62bb73dd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3ed/c8d958eb099c6/cffi-1.17.1-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:3edc8d958eb099c634dace3c7e16560ae474aa3803a5df240542b305d14e14ed" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/72e/72408cad3d541/cffi-1.17.1-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:72e72408cad3d5419375fc87d289076ee319835bdfa2caad331e377589aebba9" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/e03/eab0a8677fa80/cffi-1.17.1-cp313-cp313-win32.whl", hash = "sha256:e03eab0a8677fa80d646b5ddece1cbeaf556c313dcfac435ba11f107ba117b5d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f6a/16c31041f09ea/cffi-1.17.1-cp313-cp313-win_amd64.whl", hash = "sha256:f6a16c31041f09ead72d69f583767292f750d24913dadacf5756b966aacb3f1a" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.4.1"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/442/51f18cd68a75b/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/8bf/a33f4f2672964/charset_normalizer-3.4.1-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:8bfa33f4f2672964266e940dd22a195989ba31669bd84629f05fab3ef4e2d125" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/28b/f57629c75e810/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:28bf57629c75e810b6ae989f03c0828d64d6b26a5e205535585f96093e405ed1" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f08/ff5e948271dc7/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:f08ff5e948271dc7e18a35641d2f11a4cd8dfd5634f55228b691e62b37125eb3" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/234/ac59ea147c59e/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:234ac59ea147c59ee4da87a0c0f098e9c8d169f4dc2a159ef720f1a61bbe27cd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/fd4/ec41f914fa74a/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fd4ec41f914fa74ad1b8304bbc634b3de73d2a0889bd32076342a573e0779e00" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/eea/6ee1db730b348/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:eea6ee1db730b3483adf394ea72f808b6e18cf3cb6454b4d86e04fa8c4327a12" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c96/836c97b1238e9/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:c96836c97b1238e9c9e3fe90844c947d5afbf4f4c92762679acfe19927d81d77" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/4d8/6f7aff21ee58f/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:4d86f7aff21ee58f26dcf5ae81a9addbd914115cdebcbb2217e4f0ed8982e146" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/09b/5e6733cbd160d/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_ppc64le.whl", hash = "sha256:09b5e6733cbd160dcc09589227187e242a30a49ca5cefa5a7edd3f9d19ed53fd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/577/7ee0881f9499e/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_s390x.whl", hash = "sha256:5777ee0881f9499ed0f71cc82cf873d9a0ca8af166dfa0af8ec4e675b7df48e6" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/237/bdbe6159cff53/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:237bdbe6159cff53b4f24f397d43c6336c6b0b42affbe857970cefbb620911c8" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/841/7cb1f36cc0bc7/charset_normalizer-3.4.1-cp311-cp311-win32.whl", hash = "sha256:8417cb1f36cc0bc7eaba8ccb0e04d55f0ee52df06df3ad55259b9a323555fc8b" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d7f/50a1f8c450f39/charset_normalizer-3.4.1-cp311-cp311-win_amd64.whl", hash = "sha256:d7f50a1f8c450f3925cb367d011448c39239bb3eb4117c36a6d354794de4ce76" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/73d/94b58ec7fecbc/charset_normalizer-3.4.1-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:73d94b58ec7fecbc7366247d3b0b10a21681004153238750bb67bd9012414545" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/dad/3e487649f498d/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dad3e487649f498dd991eeb901125411559b22e8d7ab25d3aeb1af367df5efd7" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c30/197aa96e8eed0/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:c30197aa96e8eed02200a83fba2657b4c3acd0f0aa4bdc9f6c1af8e8962e0757" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/236/9eea1ee4a7610/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2369eea1ee4a7610a860d88f268eb39b95cb588acd7235e02fd5a5601773d4fa" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/bc2/722592d8998c8/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc2722592d8998c870fa4e290c2eec2c1569b87fe58618e67d38b4665dfa680d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/ffc/9202a29ab3920/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ffc9202a29ab3920fa812879e95a9e78b2465fd10be7fcbd042899695d75e616" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/804/a4d582ba6e5b7/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:804a4d582ba6e5b747c625bf1255e6b1507465494a40a2130978bda7b932c90b" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/0f5/5e69f030f7163/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:0f55e69f030f7163dffe9fd0752b32f070566451afe180f99dbeeb81f511ad8d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c4c/3e6da02df6fa1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:c4c3e6da02df6fa1410a7680bd3f63d4f710232d3139089536310d027950696a" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/5df/196eb874dae23/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:5df196eb874dae23dcfb968c83d4f8fdccb333330fe1fc278ac5ceeb101003a9" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/e35/8e64305fe1229/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e358e64305fe12299a08e08978f51fc21fac060dcfcddd95453eabe5b93ed0e1" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/9b2/3ca7ef998bc73/charset_normalizer-3.4.1-cp312-cp312-win32.whl", hash = "sha256:9b23ca7ef998bc739bf6ffc077c2116917eabcc901f88da1b9856b210ef63f35" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/6ff/8a4a60c227ad8/charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl", hash = "sha256:6ff8a4a60c227ad87030d76e99cd1698345d4491638dfa6673027c48b3cd395f" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/aab/fa34badd18f1d/charset_normalizer-3.4.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:aabfa34badd18f1da5ec1bc2715cadc8dca465868a4e73a0173466b688f29dda" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/22e/14b5d70560b8d/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:22e14b5d70560b8dd51ec22863f370d1e595ac3d024cb8ad7d308b4cd95f8313" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/843/6c508b408b82d/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:8436c508b408b82d87dc5f62496973a1805cd46727c34440b0d29d8a2f50a6c9" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/2d0/74908e1aecee3/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2d074908e1aecee37a7635990b2c6d504cd4766c7bc9fc86d63f9c09af3fa11b" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/955/f8851919303c9/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:955f8851919303c92343d2f66165294848d57e9bba6cf6e3625485a70a038d11" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/44e/cbf16649486d4/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:44ecbf16649486d4aebafeaa7ec4c9fed8b88101f4dd612dcaf65d5e815f837f" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/092/4e81d3d5e70f8/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:0924e81d3d5e70f8126529951dac65c1010cdf117bb75eb02dd12339b57749dd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/296/7f74ad52c3b98/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:2967f74ad52c3b98de4c3b32e1a44e32975e008a9cd2a8cc8966d6a5218c5cb2" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c75/cb2a3e3898538/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:c75cb2a3e389853835e84a2d8fb2b81a10645b503eca9bcb98df6b5a43eb8886" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/09b/26ae6b1abf0d2/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:09b26ae6b1abf0d27570633b2b078a2a20419c99d66fb2823173d73f188ce601" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/fa8/8b843d6e21139/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:fa88b843d6e211393a37219e6a1c1df99d35e8fd90446f1118f4216e307e48cd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/eb8/178fe3dba6450/charset_normalizer-3.4.1-cp313-cp313-win32.whl", hash = "sha256:eb8178fe3dba6450a3e024e95ac49ed3400e506fd4e9e5c32d30adda88cbd407" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/b1a/c5992a838106e/charset_normalizer-3.4.1-cp313-cp313-win_amd64.whl", hash = "sha256:b1ac5992a838106edb89654e0aebfc24f5848ae2547d22c2c3f66454daa11971" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d98/b1668f06378c6/charset_normalizer-3.4.1-py3-none-any.whl", hash = "sha256:d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/086/95f5cb7ed6e05/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/4f1/d9991f5acc0ca/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "cryptography"
+version = "44.0.2"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "cffi", marker = "platform_python_implementation != 'PyPy'" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/c63/454aa261a0cf0/cryptography-44.0.2.tar.gz", hash = "sha256:c63454aa261a0cf0c5b4718349629793e9e634993538db841165b3df74f37ec0" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/efc/fe97d1b3c79e4/cryptography-44.0.2-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:efcfe97d1b3c79e486554efddeb8f6f53a4cdd4cf6086642784fa31fc384e1d7" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/29e/cec49f3ba3f38/cryptography-44.0.2-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:29ecec49f3ba3f3849362854b7253a9f59799e3763b0c9d0826259a88efa02f1" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/bc8/21e161ae88bfe/cryptography-44.0.2-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc821e161ae88bfe8088d11bb39caf2916562e0a2dc7b6d56714a48b784ef0bb" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3c0/0b6b757b32ce0/cryptography-44.0.2-cp37-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:3c00b6b757b32ce0f62c574b78b939afab9eecaf597c4d624caca4f9e71e7843" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/7bd/cd82189759aba/cryptography-44.0.2-cp37-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:7bdcd82189759aba3816d1f729ce42ffded1ac304c151d0a8e89b9996ab863d5" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/497/3da6ca3db4405/cryptography-44.0.2-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:4973da6ca3db4405c54cd0b26d328be54c7747e89e284fcff166132eb7bccc9c" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/4e3/89622b6927d81/cryptography-44.0.2-cp37-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:4e389622b6927d8133f314949a9812972711a111d577a5d1f4bee5e58736b80a" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f51/4ef4cd14bb6fb/cryptography-44.0.2-cp37-abi3-manylinux_2_34_x86_64.whl", hash = "sha256:f514ef4cd14bb6fb484b4a60203e912cfcb64f2ab139e88c2274511514bf7308" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/1bc/312dfb7a6e5d6/cryptography-44.0.2-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:1bc312dfb7a6e5d66082c87c34c8a62176e684b6fe3d90fcfe1568de675e6688" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3b7/21b8b4d948b21/cryptography-44.0.2-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:3b721b8b4d948b218c88cb8c45a01793483821e709afe5f622861fc6182b20a7" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/51e/4de3af4ec3899/cryptography-44.0.2-cp37-abi3-win32.whl", hash = "sha256:51e4de3af4ec3899d6d178a8c005226491c27c4ba84101bfb59c901e10ca9f79" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c50/5d61b6176aaf9/cryptography-44.0.2-cp37-abi3-win_amd64.whl", hash = "sha256:c505d61b6176aaf982c5717ce04e87da5abc9a36a5b39ac03905c4aafe8de7aa" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/8e0/ddd63e6bf1161/cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl", hash = "sha256:8e0ddd63e6bf1161800592c71ac794d3fb8001f2caebe0966e77c5234fa9efc3" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/812/76f0ea79a208d/cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:81276f0ea79a208d961c433a947029e1a15948966658cf6710bbabb60fcc2639" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/9a1/e657c0f4ea2a2/cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9a1e657c0f4ea2a23304ee3f964db058c9e9e635cc7019c4aa21c330755ef6fd" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/621/0c05941994290/cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:6210c05941994290f3f7f175a4a57dbbb2afd9273657614c506d5976db061181" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d1c/3572526997b36/cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:d1c3572526997b36f245a96a2b1713bf79ce99b271bbcf084beb6b9b075f29ea" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/b04/2d2a275c8cee8/cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:b042d2a275c8cee83a4b7ae30c45a15e6a4baa65a179a0ec2d78ebb90e4f6699" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d03/806036b4f89e3/cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:d03806036b4f89e3b13b6218fefea8d5312e450935b1a2d55f0524e2ed7c59d9" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c73/62add18b416b6/cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl", hash = "sha256:c7362add18b416b69d58c910caa217f980c5ef39b23a38a0880dfd87bdf8cd23" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/8ca/dc6e3b5a1f144/cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:8cadc6e3b5a1f144a039ea08a0bdb03a2a92e19c46be3285123d32029f40a922" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/6f1/01b1f780f7fc6/cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:6f101b1f780f7fc613d040ca4bdf835c6ef3b00e9bd7125a4255ec574c7916e4" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3dc/62975e31617ba/cryptography-44.0.2-cp39-abi3-win32.whl", hash = "sha256:3dc62975e31617badc19a906481deacdeb80b4bb454394b4098e3f2525a488c5" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/5f6/f90b72d8ccadb/cryptography-44.0.2-cp39-abi3-win_amd64.whl", hash = "sha256:5f6f90b72d8ccadb9c6e311c775c8305381db88374c65fa1a68250aa8a9cb3a6" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/909/c97ab43a9c0c0/cryptography-44.0.2-pp311-pypy311_pp73-manylinux_2_28_aarch64.whl", hash = "sha256:909c97ab43a9c0c0b0ada7a1281430e4e5ec0458e6d9244c0e821bbf152f061d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/96e/7a5e9d6e71f9f/cryptography-44.0.2-pp311-pypy311_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:96e7a5e9d6e71f9f4fca8eebfd603f8e86c5225bb18eb621b2c1e50b290a9471" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d1b/3031093a366ac/cryptography-44.0.2-pp311-pypy311_pp73-manylinux_2_34_aarch64.whl", hash = "sha256:d1b3031093a366ac767b3feb8bcddb596671b3aaff82d4050f984da0c248b615" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/04a/bd71114848aa2/cryptography-44.0.2-pp311-pypy311_pp73-manylinux_2_34_x86_64.whl", hash = "sha256:04abd71114848aa25edb28e225ab5f268096f44cf0127f3d36975bdf1bdf3390" },
+]
+
+[[package]]
+name = "django"
+version = "5.2"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "asgiref" },
+    { name = "sqlparse" },
+    { name = "tzdata", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/1a4/7f7a7a3d43ce6/Django-5.2.tar.gz", hash = "sha256:1a47f7a7a3d43ce64570d350e008d2949abe8c7e21737b351b6a1611277c6d89" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/91c/eed4e3a6db5ae/Django-5.2-py3-none-any.whl", hash = "sha256:91ceed4e3a6db5aedced65e3c8f963118ea9ba753fc620831c77074e620e7d83" },
+]
+
+[[package]]
+name = "django-ratelimit"
+version = "4.1.0"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/555/943b283045b91/django-ratelimit-4.1.0.tar.gz", hash = "sha256:555943b283045b917ad59f196829530d63be2a39adb72788d985b90c81ba808b" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d04/7a31cf94d83ef/django_ratelimit-4.1.0-py2.py3-none-any.whl", hash = "sha256:d047a31cf94d83ef1465d7543ca66c6fc16695559b5f8d814d1b51df15110b92" },
+]
+
+[[package]]
+name = "hidp"
+version = "1.3.0"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "django" },
+    { name = "django-ratelimit" },
+    { name = "jwcrypto" },
+    { name = "requests" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/leukeleu/prod/+f/f19/df897f70af486/hidp-1.3.0.tar.gz", hash = "sha256:f19df897f70af486f6e6f855aff342eb053a43cf7807788a4192c3b2d69dcf02" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/leukeleu/prod/+f/b02/9759c7d599a5c/hidp-1.3.0-py3-none-any.whl", hash = "sha256:b029759c7d599a5c08e864123920d953e07bfd0cd69fdbb5980c2b53f04354dd" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/12f/65c9b470abda6/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/946/d195a0d259cbb/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "jwcrypto"
+version = "1.5.6"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/771/a87762a0c081a/jwcrypto-1.5.6.tar.gz", hash = "sha256:771a87762a0c081ae6166958a954f80848820b2ab066937dc8b8379d65b1b039" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/150/d2b0ebbdb8f40/jwcrypto-1.5.6-py3-none-any.whl", hash = "sha256:150d2b0ebbdb8f40b77f543fb44ffd2baeff48788be71f67f03566692fd55789" },
+]
+
+[[package]]
+name = "leukeleu-hidp-django-admin"
+version = "0.0.0"
+source = { editable = "." }
+dependencies = [
+    { name = "hidp" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "build" },
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "hidp", specifier = ">=1.3.0,<1.4.0" }]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "build", specifier = ">=1.2.2.post1" },
+    { name = "ruff", specifier = ">=0.11.4" },
+]
+
+[[package]]
+name = "packaging"
+version = "24.2"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/c22/8a6dc5e932d34/packaging-24.2.tar.gz", hash = "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/09a/bb1bccd265c01/packaging-24.2-py3-none-any.whl", hash = "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759" },
+]
+
+[[package]]
+name = "pycparser"
+version = "2.22"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/491/c8be9c040f539/pycparser-2.22.tar.gz", hash = "sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/c37/02b6d3dd8c7ab/pycparser-2.22-py3-none-any.whl", hash = "sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc" },
+]
+
+[[package]]
+name = "pyproject-hooks"
+version = "1.2.0"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/1e8/59bd5c40fae94/pyproject_hooks-1.2.0.tar.gz", hash = "sha256:1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/9e5/c6bfa8dcc3009/pyproject_hooks-1.2.0-py3-none-any.whl", hash = "sha256:9e5c6bfa8dcc30091c74b0cf803c81fdd29d94f01992a7707bc97babb1141913" },
+]
+
+[[package]]
+name = "requests"
+version = "2.32.3"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/553/65417734eb182/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/707/61cfe03c773ce/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6" },
+]
+
+[[package]]
+name = "ruff"
+version = "0.11.4"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/f45/bd2fb1a56a5a8/ruff-0.11.4.tar.gz", hash = "sha256:f45bd2fb1a56a5a85fae3b95add03fb185a0b30cf47f5edc92aa0355ca1d7407" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d9f/4a761ecbde448/ruff-0.11.4-py3-none-linux_armv6l.whl", hash = "sha256:d9f4a761ecbde448a2d3e12fb398647c7f0bf526dbc354a643ec505965824ed2" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/8c1/747d903447d45/ruff-0.11.4-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:8c1747d903447d45ca3d40c794d1a56458c51e5cc1bc77b7b64bd2cf0b1626cc" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/51a/6494209cacca7/ruff-0.11.4-py3-none-macosx_11_0_arm64.whl", hash = "sha256:51a6494209cacca79e121e9b244dc30d3414dac8cc5afb93f852173a2ecfc906" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/3f1/71605f65f4fc4/ruff-0.11.4-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3f171605f65f4fc49c87f41b456e882cd0c89e4ac9d58e149a2b07930e1d466f" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/ebf/99ea9af918878/ruff-0.11.4-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:ebf99ea9af918878e6ce42098981fc8c1db3850fef2f1ada69fb1dcdb0f8e79e" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/eda/d2eac42279df1/ruff-0.11.4-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:edad2eac42279df12e176564a23fc6f4aaeeb09abba840627780b1bb11a9d223" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/f10/3a848be9ff379/ruff-0.11.4-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:f103a848be9ff379fc19b5d656c1f911d0a0b4e3e0424f9532ececf319a4296e" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/193/e6fac6eb60cc9/ruff-0.11.4-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:193e6fac6eb60cc97b9f728e953c21cc38a20077ed64f912e9d62b97487f3f2d" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/7af/4e5f69b7c138b/ruff-0.11.4-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:7af4e5f69b7c138be8dcffa5b4a061bf6ba6a3301f632a6bce25d45daff9bc99" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/126/b1bf13154aa18/ruff-0.11.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:126b1bf13154aa18ae2d6c3c5efe144ec14b97c60844cfa6eb960c2a05188222" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/e88/06daaf9dfa881/ruff-0.11.4-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:e8806daaf9dfa881a0ed603f8a0e364e4f11b6ed461b56cae2b1c0cab0645304" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/5d9/4bb1cc2fc94a7/ruff-0.11.4-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:5d94bb1cc2fc94a769b0eb975344f1b1f3d294da1da9ddbb5a77665feb3a3019" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/995/071203d0fe218/ruff-0.11.4-py3-none-musllinux_1_2_i686.whl", hash = "sha256:995071203d0fe2183fc7a268766fd7603afb9996785f086b0d76edee8755c896" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/7a3/7ca937e307ea1/ruff-0.11.4-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:7a37ca937e307ea18156e775a6ac6e02f34b99e8c23fe63c1996185a4efe0751" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/0e9/365a7dff9b93a/ruff-0.11.4-py3-none-win32.whl", hash = "sha256:0e9365a7dff9b93af933dab8aebce53b72d8f815e131796268709890b4a83270" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/5a9/fa1c69c7815e3/ruff-0.11.4-py3-none-win_amd64.whl", hash = "sha256:5a9fa1c69c7815e39fcfb3646bbfd7f528fa8e2d4bebdcf4c2bd0fa037a255fb" },
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/d43/5db6b9b93d029/ruff-0.11.4-py3-none-win_arm64.whl", hash = "sha256:d435db6b9b93d02934cf61ef332e66af82da6d8c69aefdea5994c89997c7a0fc" },
+]
+
+[[package]]
+name = "sqlparse"
+version = "0.5.3"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/09f/67787f56a0b16/sqlparse-0.5.3.tar.gz", hash = "sha256:09f67787f56a0b16ecdbde1bfc7f5d9c3371ca683cfeaa8e6ff60b4807ec9272" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/cf2/196ed3418f3ba/sqlparse-0.5.3-py3-none-any.whl", hash = "sha256:cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.1"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/987/95af00fb9640e/typing_extensions-4.13.1.tar.gz", hash = "sha256:98795af00fb9640edec5b8e31fc647597b4691f099ad75f469a2616be1a76dff" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/4b6/cf02909eb5495/typing_extensions-4.13.1-py3-none-any.whl", hash = "sha256:4b6cf02909eb5495cfbc3f6e8fd49217e6cc7944e145cdda8caa3734777f9e69" },
+]
+
+[[package]]
+name = "tzdata"
+version = "2025.2"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/b60/a638fcc0daffa/tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/1a4/03fada01ff922/tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.3.0"
+source = { registry = "https://devpi.leukeleu.nl/leukeleu/prod/" }
+sdist = { url = "https://devpi.leukeleu.nl/root/pypi/+f/f8c/5449b3cf08616/urllib3-2.3.0.tar.gz", hash = "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d" }
+wheels = [
+    { url = "https://devpi.leukeleu.nl/root/pypi/+f/1ce/e9ad369867bfd/urllib3-2.3.0-py3-none-any.whl", hash = "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df" },
+]

@@ -1,0 +1,42 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block title %}
+  {% if form.errors %}{% translate "Error:" %} {% endif %}{{ block.super }}
+{% endblock %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'admin/css/login.css' %}">
+  <link rel="stylesheet" href="{% static 'admin/css/base.css' %}">
+  {{ form.media }}
+  <link rel="stylesheet" href="{% static 'css/hidp_django_admin_pre_login.css' %}">
+  <link rel="stylesheet" href="{% static 'css/hidp_django_admin.css' %}">
+  {% block dark-mode-vars %}
+    <link rel="stylesheet" href="{% static 'admin/css/dark_mode.css' %}">
+  {% endblock %}
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} login{% endblock %}
+
+{% block usertools %}{% endblock %}
+{% block nav-global %}{% endblock %}
+{% block nav-sidebar %}{% endblock %}
+{% block content_title %}{% endblock %}
+{% block nav-breadcrumbs %}{% endblock %}
+
+{% block content %}
+  {% if form.errors and not form.non_field_errors %}
+    <p class="errornote">
+      {% blocktranslate count counter=form.errors.items|length %}
+        Please correct the error below.
+      {% plural %}
+        Please correct the errors below.
+      {% endblocktranslate %}
+    </p>
+  {% endif %}
+
+  <div id="content-main">
+    {% block main %}{% endblock %}
+  </div>
+{% endblock %}
