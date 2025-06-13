@@ -1,0 +1,7 @@
+Django~=4.2.0
+django-email-bandit~=2.0.0
+leukeleu-django-checks~=1.2
+leukeleu-django-gdpr~=1.4
+django-hidp[recommended]~=1.5.0
+psycopg2-binary~=2.9.6
+-e ../packages/hidp_django_admin
