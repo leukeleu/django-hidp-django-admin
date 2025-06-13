@@ -140,3 +140,8 @@ div:has(> label + input[type="checkbox"]) label,
 p:has(> label + input[type="checkbox"]) label {
   margin: 0;
 }
+
+li a:link,
+p a:link {
+  text-decoration: underline;
+}
