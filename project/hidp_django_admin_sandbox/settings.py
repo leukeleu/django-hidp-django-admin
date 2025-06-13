@@ -11,9 +11,6 @@ PROJECT_DIR = Path(__file__).resolve().parent
 # Repository root directory
 BASE_DIR = PROJECT_DIR.parent.parent
 
-# Frontend project root directory (static files, templates, etc.)
-FRONTEND_DIR = BASE_DIR / "frontend"
-
 # Shared var directory (for logs, cache, etc.)
 VAR_DIR = BASE_DIR / "var"
 
@@ -71,6 +68,7 @@ INSTALLED_APPS = [
     "leukeleu_django_checks",
     "leukeleu_django_gdpr",
     # Django
+    "hidp_django_admin",  # Should be above "django.contrib.admin" for templates to work
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -78,7 +76,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Hello, ID Please
-    "hidp_django_admin",
     "hidp",
     "hidp.accounts",
     "hidp.csp",
@@ -111,7 +108,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            FRONTEND_DIR / "templates",
+            str(PROJECT_DIR / "../templates"),
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -208,10 +205,6 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "/static/"
-
-STATICFILES_DIRS = [
-    FRONTEND_DIR / "static",
-]
 
 if DEBUG:
     # STATIC_ROOT defaults to VAR_DIR/public/static/ in debug mode
