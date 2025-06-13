@@ -29,6 +29,10 @@ jobs:
       # A build is created as part of the QA job
       - name: Linting, checks & tests
         uses: ./.github/actions/python-qa
+        with:
+          working-directory: './packages/hidp_django_admin'
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: './packages/hidp_django_admin/dist'

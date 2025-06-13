@@ -22,3 +22,5 @@ jobs:
 
       - name: Linting, checks & tests
         uses: ./.github/actions/python-qa
+        with:
+          working-directory: './packages/hidp_django_admin'
