@@ -30,7 +30,7 @@ Issues = "https://github.com/leukeleu/django-hidp-django-admin/issues"
 Releasenotes = "https://github.com/leukeleu/django-hidp-django-admin/releases"
 
 [tool.setuptools_scm]
-# can be empty if no extra settings are needed, presence enables setuptools-scm
+root = "../.."
 
 [tool.setuptools]
 packages = ["hidp_django_admin"]

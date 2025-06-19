@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-29 17:20+0200\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: hidp_django_admin_sandbox/accounts/admin.py
+msgid "Personal info"
+msgstr "Persoonlijke gegevens"
+
+#: hidp_django_admin_sandbox/accounts/admin.py
+msgid "Permissions"
+msgstr "Toegang"
+
+#: hidp_django_admin_sandbox/accounts/admin.py
+msgid "Important dates"
+msgstr "Belangrijke datums"
