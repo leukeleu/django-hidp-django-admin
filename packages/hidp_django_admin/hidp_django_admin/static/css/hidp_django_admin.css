@@ -5,7 +5,6 @@ li {
 
 #content {
   max-width: 600px;
-  font-family: Arial, sans-serif;
 }
 
 #content ul {
@@ -21,11 +20,6 @@ li {
 
 #content ul > li > form > button {
   margin-bottom: 0.5rem;
-}
-
-#content h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
 }
 
 #content hr {
