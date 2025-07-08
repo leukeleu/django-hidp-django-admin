@@ -19,9 +19,9 @@
     <header id="header">
       <div id="branding">
         {% block branding %}
-          <div id="site-name">
+          <h1 id="site-name">
             <a href="{% url 'admin:index' %}">{% trans 'Django-admin' %}</a>
-          </div>
+          </h1>
         {% endblock %}
       </div>
       {% block usertools %}
