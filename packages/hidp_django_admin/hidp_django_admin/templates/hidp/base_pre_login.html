@@ -1,5 +1,5 @@
 {% extends "admin/base_site.html" %}
-{% load i18n static %}
+{% load csp_nonce i18n static %}
 
 {% block title %}
   {% if form.errors %}{% translate "Error:" %} {% endif %}{{ block.super }}
@@ -7,14 +7,15 @@
 
 {% block extrastyle %}
   {{ block.super }}
-  <link rel="stylesheet" href="{% static 'admin/css/login.css' %}">
   <link rel="stylesheet" href="{% static 'admin/css/base.css' %}">
   {{ form.media }}
   <link rel="stylesheet" href="{% static 'css/hidp_django_admin_pre_login.css' %}">
   <link rel="stylesheet" href="{% static 'css/hidp_django_admin.css' %}">
   {% block dark-mode-vars %}
-    <link rel="stylesheet" href="{% static 'admin/css/dark_mode.css' %}">
+  <link rel="stylesheet" href="{% static 'admin/css/dark_mode.css' %}">
+  <script nonce="{% csp_nonce %}" src="{% static "admin/js/theme.js" %}"></script>
   {% endblock %}
+  <link rel="stylesheet" href="{% static 'admin/css/login.css' %}">
 {% endblock %}
 
 {% block bodyclass %}{{ block.super }} login{% endblock %}
