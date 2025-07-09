@@ -5,7 +5,6 @@ li {
 
 #content {
   max-width: 600px;
-  font-family: Arial, sans-serif;
 }
 
 #content ul {
@@ -21,11 +20,6 @@ li {
 
 #content ul > li > form > button {
   margin-bottom: 0.5rem;
-}
-
-#content h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
 }
 
 #content hr {
@@ -64,7 +58,7 @@ form .submit-row {
 form button[type="submit"],
 form input[type="submit"],
 form input[type="button"] {
-  background: var(--button-bg);
+  background: var(--default-button-bg);
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -82,7 +76,7 @@ form input[type="button"][disabled] {
 
 form button[type="submit"]:hover,
 form input[type="submit"]:hover {
-  background-color: var(--button-hover-bg);
+  background-color: var(--default-button-hover-bg);
 }
 
 form a.default {
