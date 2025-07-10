@@ -10,7 +10,6 @@ The setup provides these containers:
 * nginx
 * python (custom image)
 * postgres
-* node (custom image)
 
 ## To run locally:
 
@@ -235,11 +234,10 @@ docker compose ps
 You should see something like this (some columns omitted):
 
 ```
-NAME                                               [...]   STATUS           PORTS
-hidp_django_admin_sandbox-nginx-1            Up 5 minutes             0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
-hidp_django_admin_sandbox-node-1             Up 5 minutes
-hidp_django_admin_sandbox-postgres-1         Up 5 minutes (healthy)   0.0.0.0:54321->5432/tcp
-hidp_django_admin_sandbox-python-1           Up 5 minutes
+NAME     [...]   STATUS           PORTS
+nginx            Up 5 minutes             0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+postgres         Up 5 minutes (healthy)   0.0.0.0:54321->5432/tcp
+python           Up 5 minutes
 ```
 
 ### Check container logs
@@ -256,7 +254,7 @@ It's also possible to just tail the logs of a specific set or a single
 container, e.g.:
 
 ```sh
-docker compose logs -tf --tail 10 node
+docker compose logs -tf --tail 10 python
 ```
 
 ### Troubleshooting
@@ -296,14 +294,14 @@ orphaned containers.
 
 ### Installing/updating project dependencies
 
-Application dependencies are (re)installed when the python or
-node containers are started.
+Application dependencies are (re)installed when the python
+container is started.
 
 If you need to install or update dependencies, you can do so by
 updating the requirements file and restarting the containers.
 
 ```sh
-docker compose restart python node
+docker compose restart python
 ```
 
 Don't forget to commit the (lock)file(s)!
