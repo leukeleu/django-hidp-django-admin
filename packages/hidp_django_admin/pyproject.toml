@@ -13,7 +13,7 @@ authors = [
     { name = "Robin van Leeuwen", email = "rvanleeuwen@leukeleu.nl" },
 ]
 dependencies = [
-    "django-hidp>=1.4.0,<2",
+    "django-hidp>=1.6.0,<2",
 ]
 readme = "README.md"
 license = "BSD-3-Clause"
