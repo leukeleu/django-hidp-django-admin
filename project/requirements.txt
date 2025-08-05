@@ -1,4 +1,4 @@
-Django~=4.2.0
+Django~=5.2.4
 django-email-bandit~=2.0.0
 leukeleu-django-checks~=1.2
 leukeleu-django-gdpr~=1.4
