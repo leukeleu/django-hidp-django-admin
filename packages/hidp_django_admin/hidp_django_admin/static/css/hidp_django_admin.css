@@ -89,7 +89,7 @@ form a.default:hover {
   text-decoration: underline;
 }
 
-form input[type="submit"].submit-link {
+form button[type="submit"].submit-link {
   background: none;
   color: var(--link-fg);
   text-decoration: none;
@@ -97,9 +97,11 @@ form input[type="submit"].submit-link {
   padding: 0;
   border: none;
   cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 1rem;
 }
 
-form input[type="submit"].submit-link:hover {
+form button[type="submit"].submit-link:hover {
   color: var(--link-hover-color);
 }
 
@@ -133,4 +135,10 @@ p:has(> label + input[type="checkbox"]) {
 div:has(> label + input[type="checkbox"]) label,
 p:has(> label + input[type="checkbox"]) label {
   margin: 0;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

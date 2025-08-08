@@ -1,0 +1,74 @@
+{% extends 'hidp/base_post_login.html' %}
+{% load i18n %}
+
+{% block title %}{% translate 'Two-factor Authentication' %}{% endblock %}
+
+{% block main %}
+<style>
+    .qr-code-container {
+        padding: 1rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        display: inline-block;
+    }
+
+    .qr-code-image {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        aspect-ratio: 1/1;
+    }
+
+    .otp-config-url {
+        white-space: pre-line;
+        word-break: break-all;
+    }
+</style>
+
+<h1>{% translate 'Set up two-factor authentication' %}</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+    <h2>{% translate 'Scan the QR code' %}</h2>
+    <div class="qr-code-container">
+        <img class="qr-code-image" src="{{ qrcode|safe }}"
+            alt="{% translate 'QR code for setting up two-factor authentication. Scan with your authenticator app.' %}" />
+    </div>
+
+    <details>
+        <summary>
+            {% translate 'Having trouble scanning the QR code?' %}
+        </summary>
+        <p>
+            {% translate 'Enter the following URL in your authenticator app:' %}
+        <pre class="otp-config-url">{{ config_url}}</pre>
+        </p>
+    </details>
+
+    {{ form.non_field_errors }}
+
+    <p>
+        {{ form.otp_token.errors }}
+        {{ form.otp_token.label_tag }}
+        {{ form.otp_token }}
+    </p>
+
+    <h2>{% translate 'Recovery codes' %}</h2>
+    <pre>{{ recovery_codes }}</pre>
+
+    <p>
+        {{ form.confirm_stored_backup_tokens.errors }}
+        {{ form.confirm_stored_backup_tokens.label_tag }}
+        {{ form.confirm_stored_backup_tokens }}
+    </p>
+
+    <div class="form-row">
+        {% include 'hidp/includes/forms/submit_row.html' with submit_label=_('Submit') %}
+        <a href="{{ back_url }}">{% translate 'Back' %}</a>
+    </div>
+</form>
+
+{% include 'hidp/includes/forms/logout_form.html' %}
+
+{% endblock %}
