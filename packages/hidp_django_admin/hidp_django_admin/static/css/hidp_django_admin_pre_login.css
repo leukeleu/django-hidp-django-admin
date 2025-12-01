@@ -2,3 +2,17 @@ form input[type="password"],
 form input[type="email"] {
   width: 100%;
 }
+
+#info-tooltip div {
+  position: absolute;
+  background-color: var(--body-bg);
+  border: 1px solid var(--secondary);
+  padding: 10px;
+  bottom: 4rem;
+  left: -15px;
+  right: -15px;
+}
+
+.input-div {
+  position: relative;
+}
