@@ -1,4 +1,4 @@
-check-manifest==0.50
+check-manifest==0.51
 ruff~=0.13.1
 build
 twine
